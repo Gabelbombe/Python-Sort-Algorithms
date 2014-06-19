@@ -14,10 +14,12 @@ for count in range(5):
     start = time.time()
     work = 1
 
+    # Algorithm start
     for j in range(problemSize):
         for k in range(problemSize):
             work += 1
             work -= 1
+	# Algorithm end
 
     elapsed = time.time() - start
 
